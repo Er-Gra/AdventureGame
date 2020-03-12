@@ -152,12 +152,12 @@ public class FrmOwnAdventure extends javax.swing.JFrame {
                         "tools");
             txtDesicion2.setText("2)\n" +
                         "Go swimming");
-        } else
+        } else      //invalid input: choice to go back or exit the program
         {
-            lblStory1.setText("");
-            lblStory2.setText("Invalid input.");
-            lblStory3.setText("Input must be one of the options");
-            lblStory4.setText("Would you like to go back to the start?");
+            lblStory1.setText("Invalid input");
+            lblStory2.setText("Input must be one of the options");
+            lblStory3.setText("would you like to restart?");
+            lblStory4.setText("Write yes or no");
             txtDesicion1.setText(" ");
             txtDesicion2.setText(" ");
             if ((answerYN.equals ("Yes"))||(answerYN.equals("yes")))
@@ -172,6 +172,10 @@ public class FrmOwnAdventure extends javax.swing.JFrame {
                             "tools");
                 txtDesicion2.setText("2)\n" +
                             "Go swimming");
+            } 
+            else if ((answerYN.equals ("No"))||(answerYN.equals("no")))
+            {
+                System.out.println("Program closed");
             }
         }
     }//GEN-LAST:event_txtUserInputActionPerformed
