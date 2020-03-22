@@ -154,6 +154,15 @@ public class FrmAdventure3 extends javax.swing.JFrame {
 
 //        new FrmAdventure3().setVisible(true);
 //        this.setVisible(false);
+        lblStory1.setText(" ");
+        lblStory2.setText(" Coming Soon");
+        lblStory3.setText(" ");
+        lblStory4.setText(" ");
+        txtDesicion1.setText(" ");
+        txtDesicion2.setText(" ");
+        btnDecision1.setVisible(false);
+        btnDecision2.setVisible(false);
+        btnRestart.setVisible(true);
     }//GEN-LAST:event_btnDecision2ActionPerformed
 
     private void btnRestartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRestartActionPerformed
