@@ -127,7 +127,7 @@
         </Component>
         <Component class="javax.swing.JLabel" name="lblStory2">
           <Properties>
-            <Property name="text" type="java.lang.String" value="You are too tired of searching."/>
+            <Property name="text" type="java.lang.String" value="You are tired of searching."/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="lblStory3">

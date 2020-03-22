@@ -8,12 +8,12 @@
  *
  * @author kikag
  */
-public class FrmAdventureGame2 extends javax.swing.JFrame {
+public class FrmAdventure3 extends javax.swing.JFrame {
 
     /**
-     * Creates new form FrmAdventureGame2
+     * Creates new form FrmAdventure3
      */
-    public FrmAdventureGame2() {
+    public FrmAdventure3() {
         initComponents();
     }
 
@@ -26,7 +26,6 @@ public class FrmAdventureGame2 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
         lblTitle = new javax.swing.JLabel();
         lblStory1 = new javax.swing.JLabel();
         lblStory2 = new javax.swing.JLabel();
@@ -43,19 +42,15 @@ public class FrmAdventureGame2 extends javax.swing.JFrame {
         lblTitle.setFont(new java.awt.Font("TI Uni", 1, 18)); // NOI18N
         lblTitle.setText("Choose your own adventure");
 
-        lblStory1.setText("You find enough food for a few weeks, a medical kit and an axe.");
-
-        lblStory2.setText("You are tired of searching.");
-
-        lblStory3.setText("Your next move is...");
+        lblStory1.setText("You come across two different paths");
 
         txtDesicion1.setColumns(20);
         txtDesicion1.setRows(5);
-        txtDesicion1.setText("1)\nTake a nap in\nthe plane");
+        txtDesicion1.setText("1)\nTake the left\npath");
 
         txtDesicion2.setColumns(20);
         txtDesicion2.setRows(5);
-        txtDesicion2.setText("2)\nSearch for wood\nto make a fire");
+        txtDesicion2.setText("2)\nTake the right\npath");
 
         btnDecision1.setText("1");
         btnDecision1.addActionListener(new java.awt.event.ActionListener() {
@@ -78,44 +73,44 @@ public class FrmAdventureGame2 extends javax.swing.JFrame {
             }
         });
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
                         .addGap(59, 59, 59)
                         .addComponent(lblTitle, javax.swing.GroupLayout.PREFERRED_SIZE, 283, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
+                    .addGroup(layout.createSequentialGroup()
                         .addGap(22, 22, 22)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                                 .addComponent(lblStory4, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(lblStory2, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(lblStory1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(lblStory3, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createSequentialGroup()
                                         .addComponent(txtDesicion1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addGap(43, 43, 43))
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
+                                    .addGroup(layout.createSequentialGroup()
                                         .addGap(31, 31, 31)
                                         .addComponent(btnDecision1, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addGap(18, 18, 18)))
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(txtDesicion2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
+                                    .addGroup(layout.createSequentialGroup()
                                         .addComponent(btnDecision2, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                         .addComponent(btnRestart)))))
                         .addGap(19, 19, 19)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(lblTitle, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -127,26 +122,15 @@ public class FrmAdventureGame2 extends javax.swing.JFrame {
                 .addGap(12, 12, 12)
                 .addComponent(lblStory4)
                 .addGap(18, 18, 18)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(txtDesicion2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtDesicion1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnDecision1)
                     .addComponent(btnDecision2)
                     .addComponent(btnRestart))
-                .addContainerGap(31, Short.MAX_VALUE))
-        );
-
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap(59, Short.MAX_VALUE))
         );
 
         pack();
@@ -154,11 +138,12 @@ public class FrmAdventureGame2 extends javax.swing.JFrame {
 
     private void btnDecision1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDecision1ActionPerformed
 
-        lblStory1.setText("You sit on a seat to try to sleep");
-        lblStory2.setText("when you hear someone walking");
-        lblStory3.setText("you get knocked out and eaten by a cannibal");
-        lblStory4.setText("Do you want to restart?");
-        txtDesicion1.setText(" ");
+        lblStory1.setText("Why are there paths in an island?");
+        lblStory2.setText("You think while turning around");
+        lblStory3.setText("You see a human-like silhouette");
+        lblStory4.setText("Turns out it's a cannibal and you forgot your axe");
+        txtDesicion1.setText("Would you like\n"+
+                            "to restart?");
         txtDesicion2.setText(" ");
         btnDecision1.setVisible(false);
         btnDecision2.setVisible(false);
@@ -167,8 +152,8 @@ public class FrmAdventureGame2 extends javax.swing.JFrame {
 
     private void btnDecision2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDecision2ActionPerformed
 
-        new FrmAdventure3().setVisible(true);
-        this.setVisible(false);
+//        new FrmAdventure3().setVisible(true);
+//        this.setVisible(false);
     }//GEN-LAST:event_btnDecision2ActionPerformed
 
     private void btnRestartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRestartActionPerformed
@@ -195,20 +180,20 @@ public class FrmAdventureGame2 extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(FrmAdventureGame2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FrmAdventure3.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(FrmAdventureGame2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FrmAdventure3.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(FrmAdventureGame2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FrmAdventure3.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(FrmAdventureGame2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FrmAdventure3.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new FrmAdventureGame2().setVisible(true);
+                new FrmAdventure3().setVisible(true);
             }
         });
     }
@@ -217,7 +202,6 @@ public class FrmAdventureGame2 extends javax.swing.JFrame {
     private javax.swing.JButton btnDecision1;
     private javax.swing.JButton btnDecision2;
     private javax.swing.JButton btnRestart;
-    private javax.swing.JPanel jPanel1;
     private javax.swing.JLabel lblStory1;
     private javax.swing.JLabel lblStory2;
     private javax.swing.JLabel lblStory3;
